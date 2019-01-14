@@ -15,10 +15,13 @@ public class HelloWorld {
 		System.out.println(x);
 		System.out.println(b);
 		
-		double d = 23.50;
+		double d = 45.50000;
 		System.out.println(d);
 		float f = 45.50f;
 		System.out.println(d);
+		
+		System.out.println("Is d == f ? " + (d == f));
+		
 		
 		boolean bl = true; 
 		System.out.println(!bl);
@@ -28,7 +31,7 @@ public class HelloWorld {
 		System.out.println(ch);
 		System.out.println((char)ch);
 		System.out.println(ch);
-		
+		 
 	
 	}
 
