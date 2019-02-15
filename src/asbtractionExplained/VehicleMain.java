@@ -6,16 +6,16 @@ public class VehicleMain {
 		// TODO Auto-generated method stub
 		int v; 
 
-		Vehicle v1 = new Bus();
-		Vehicle v2 = new Car();
-		Vehicle v3 = new Truck();
+		Vehicle v1 = new Bus();  // Are all Bus Vehicle ? Yes
+		Vehicle v2 = new Car(); // Are all Car Vehicle ? Yes
+		Vehicle v3 = new Truck(); // Are all Truck Vehicle ? Yes
 
 		Vehicle v4 = new Car();
 
 		Car v5 = new Car();
-
-		// Car v6 = new Vehicle();
-		// Car v7 = new Bus();
+//
+//		 Car v6 = new Vehicle();  // Are all Vehicle Car? No
+//		 Car v7 = new Bus(); // Are all  Bus Car ? No
 
 
 		//		v1.doors = 4;
