@@ -3,7 +3,7 @@ package recursiveMethods;
 
 public class RecursiveStringReverse {
 	public static void main(String args[]) {
-		String hello = "Hello"; 
+		String hello = "Hello World!"; 
 		System.out.print("Reverse of the string '"+ hello +"' is : "+ reverse(hello));
 	}  
 
@@ -12,7 +12,8 @@ public class RecursiveStringReverse {
 			
 			return str;
 		else{
-			return (reverse(str.substring(1)) +  str.charAt(0));  // recursion makes here
+			return (reverse(str.substring(1)) +  str.charAt(0));  
+			// recursion makes here
 		}
 	}
 }  

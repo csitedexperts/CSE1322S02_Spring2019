@@ -11,7 +11,7 @@ public class RecursiveFibonacci {
 	}  
 
 	static int fibo(int n) {
-		if (n<=1)
+		if (n <= 1)  // n < 2 
 			return 1;
 		else{
 			return fibo(n-2) + fibo(n-1);  // recursion makes here
