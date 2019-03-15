@@ -114,7 +114,6 @@ public class QueueImplementationExplained {
 		myq.enQueue(4, "DD");
 		myq.enQueue(5, "EE");
 
-
 		myq.displayAllNodes();
 
 		myq.peek();

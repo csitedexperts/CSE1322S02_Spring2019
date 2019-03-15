@@ -8,10 +8,10 @@ public class J14_04{
 		x = 5; y=10; z=15;
 		
 		try{
-			d = z/(y+2*x);  // Exception Makes Here (Division by zero)
+			d = z/(y-2*x);  // Exception Makes Here (Division by zero)
 		}
-		catch (ArithmeticException e){
-			e.printStackTrace();
+		catch (ArithmeticException ex){
+			ex.printStackTrace();
 			System.out.println("Value of d is undetermined");
 			System.out.println("\t(Division by zero)");  //ERROR Message
 			d = z/(y-x);  // OK and displayed

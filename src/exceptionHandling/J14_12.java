@@ -2,6 +2,7 @@ package exceptionHandling;
 /*  J14_12.java   */
 /* Creating User-defined Exception Class */
 import java.lang.Exception;   // Optional Statement
+
 class MyException extends Exception
 {
 	MyException(String Msg) // Constructor Defined
