@@ -17,6 +17,13 @@ public class VehicleMain {
 		Vehicle v3 = new Vehicle();
 		Vehicle v4 = new Vehicle();
 
+		Vehicle v5 = new Vehicle(4, 120, "Black");
+
+		System.out.println("v5.door = " + v5.getDoors());
+		System.out.println("v5.speed = " + v5.getSpeed());
+		System.out.println("v5.color = " + v5.getColor());
+		
+		
 //		VehicleMain.Test();
 		
 		Vehicle.run();

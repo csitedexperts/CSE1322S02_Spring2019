@@ -25,6 +25,7 @@ public class MainThread2_ByImplementingRunnableInterface {
 
 		MyThread3 MyObj3 = new MyThread3();
 		Thread Th3 = new Thread(MyObj3); 
+		
 		Th3.start();  // Calls run() Method 
 		//	Th.run();
 

@@ -7,13 +7,48 @@ public class Vehicle {
 	private int speed;
 	private String color;
 
-	public Vehicle() {
+	public  Vehicle() {
 //		System.out.println("A vehicle object is created");
 		vehicleCount++;
 		System.out.println("Vehicle(s) created: " + vehicleCount);	
-		
 	}
 	
+	
+	public  Vehicle(int x, int y, String z) {
+		this.doors = x; speed = y; color = z;
+	}
+
+	public  Vehicle(float x) {
+//		System.out.println("A vehicle object is created");
+		vehicleCount++;
+		System.out.println("Vehicle(s) created: " + vehicleCount);	
+	}
+
+	public  Vehicle(double x) {
+//		System.out.println("A vehicle object is created");
+		vehicleCount++;
+		System.out.println("Vehicle(s) created: " + vehicleCount);	
+	}
+
+	public  Vehicle(String x) {
+//		System.out.println("A vehicle object is created");
+		vehicleCount++;
+		System.out.println("Vehicle(s) created: " + vehicleCount);	
+	}
+
+	public  Vehicle(Vehicle x) {
+//		System.out.println("A vehicle object is created");
+		vehicleCount++;
+		System.out.println("Vehicle(s) created: " + vehicleCount);	
+	}
+
+	
+	public  Vehicle(int y, int z) {
+//		System.out.println("A vehicle object is created");
+		System.out.println("Vehicle(s) created: " + vehicleCount);	
+	}
+
+		
 	public int getDoors() {  // Getter -> ret
 		return doors;
 	}

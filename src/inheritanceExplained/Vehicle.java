@@ -1,6 +1,6 @@
 package inheritanceExplained;
 
-public class Vehicle// extends Object // Inc C# object
+public class Vehicle extends Object // Inc C# object
 {
 	static int vehicleCount=0;
 	private int doors;
@@ -21,7 +21,9 @@ public class Vehicle// extends Object // Inc C# object
 	}
 
 	public Vehicle(int doors, int speed, String color) {
-		this.doors = doors; this.speed = speed; this.color = color;
+		this.doors = doors; 
+		this.speed = speed; 
+		this.color = color;
 
 	}
 
